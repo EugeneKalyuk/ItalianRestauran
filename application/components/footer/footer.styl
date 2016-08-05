@@ -1,0 +1,205 @@
+.footer
+  &__map
+    &__link
+      max-width 100%
+  &__contacts
+    background-color black
+    color white
+
+    padding 10% 0 10% 30%
+
+    &__list
+      list-style-type none
+      &__item
+        float left
+
+        margin-left 7%
+
+        &__link
+          display block
+
+          background-color rgb(255, 255, 255)
+
+          border-radius 100%
+
+          color black
+
+          font-size 22px
+
+          text-align center
+
+          height  40px
+          width  300%
+          & i
+            margin-top 30%
+
+          &:hover
+            background-color rgb(190, 190, 190)
+
+            color black
+
+            transition all .3s
+
+    &__address
+      color white
+
+      font-size 200%
+
+      margin-top  10%
+      margin-left 12%
+
+  &__form
+    background-image url('../components/img/footer.jpg')
+    background-repeat no-repeat
+
+    padding 12% 30% 12% 10%
+
+    &__box
+      &__btn
+        background-color transparent
+
+        border 1px solid white
+        border-radius 3%
+
+        color white
+
+        font-size 180%
+
+        padding 2% 5%
+
+        margin-top 5%
+
+        transition all .4s
+
+        &:hover
+          background-color white
+
+          color black
+
+          transition all .4s
+
+      &__text
+        &__aray
+          resize none
+
+  &__title
+    &__text
+      color white
+
+      font-size 300%
+
+  &__privacy
+    font-size 35px
+
+    margin-top  10%
+    margin-left 15%
+
+    &__text
+      float left
+
+    &__link
+      color black
+
+      &:hover
+        color #76c212
+
+        transition .5s all
+
+.form-control
+  background-color  transparent
+
+  border none
+  border-bottom 1px solid white
+  border-radius 0
+
+  color white
+
+  font-family "Open Sans", Helvetica, Arial, sans-serif
+  font-size 150%
+
+  padding 5% 0
+
+  &:hover
+    border-bottom 1px solid white
+
+    box-shadow none
+
+  &:focus
+    border-bottom 1px solid white
+
+    box-shadow none
+
+.error__text
+  color rgb(249, 165, 165)
+
+  display none
+
+  float right
+
+.footer .col-md-6, .col-sm-6
+  padding 0
+
+.form-control::-webkit-input-placeholder
+  color white
+
+  opacity: 1
+
+  transition opacity 0.5s ease
+
+.form-control::-moz-placeholder
+  color white
+
+  opacity: 1
+
+  transition: opacity 0.5s ease
+
+.form-control:-moz-placeholder
+  color white
+
+  opacity: 1;
+
+  transition: opacity 0.5s ease
+
+.form-control:-ms-input-placeholder
+  color white
+
+  opacity: 1
+
+  transition: opacity 0.5s ease
+
+.form-control:focus::-webkit-input-placeholder
+  color white
+
+  opacity: 0
+
+  transition: opacity 0.5s ease
+
+.form-control:focus::-moz-placeholder
+  color white
+
+  opacity: 0
+
+  transition: opacity 0.5s ease
+
+.form-control:focus:-moz-placeholder
+  color white
+
+  opacity: 0
+
+  transition: opacity 0.5s ease
+
+.form-control:focus:-ms-input-placeholder
+  color white
+
+  opacity: 0
+
+  transition: opacity 0.5s ease
+
+@media screen and (max-width: 1360px)
+  @import "media/footer-media-1360px.styl"
+
+@media screen and (max-width: 990px)
+  @import "media/footer-media-990px.styl"
+
+@media screen and (max-width: 767px)
+  @import "media/footer-media-767px.styl"

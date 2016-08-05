@@ -1,0 +1,61 @@
+.header
+    .container-fluid
+            img(src='../components/img/bg-image-1.jpg' class='header__bg img-responsive')
+
+        .row
+            .col-sm-4
+            .col-sm-4
+                    .header__img#toggle-img
+                        a(href='#')
+                            img(src='../components/img/brand.png' class='header__img__file img-responsive')
+            .col-sm-4
+
+        .row
+            .col-sm-4
+            .col-sm-4
+                .header__title
+                    a(href='#' class='header__title__link')
+                        h1.header__title__link__text Italian Restaurant
+            .col-sm-4
+
+        .row
+            .col-sm-4
+            .col-sm-4
+                .header__contact
+                        i(class="fa fa-mobile header__contact__btn" aria-hidden="true")
+                        a(href='#' class='header__contact__btn__number') +1 800 559 3548
+
+
+            .col-md-4
+
+        .row.header__nav#toggle-nav
+            .col-sm-3.col-sx-12
+                .header__nav__black-box
+            .col-sm-9.col-sx-12
+                nav.nav-menu
+                    ul.nav-menu__main
+                        li.nav-menu__main__item#active
+                            a(href='#' class='nav-menu__main__item__link') About us
+
+                            ul.nav-menu__sub
+                                li.nav-menu__sub__item
+                                    a(href='#' class='nav-menu__sub__item__link') History
+                                li.nav-menu__sub__item
+                                    a(href='#' class='nav-menu__sub__item__link') Offers
+                                li.nav-menu__sub__item.nav-menu__sub__item_whith-menu
+                                    a#active_2(href='#' class='nav-menu__sub__item__link') News
+
+                                    ul.nav-menu__last-menu
+                                        li.nav-menu__last-menu__item
+                                            a(href='#' class='nav-menu__last-menu__item__link') Fresh
+                                        li.nav-menu__last-menu__item
+                                            a(href='#' class='nav-menu__last-menu__item__link') Archive
+
+                        li.nav-menu__main__item
+                            a(href='#' class='nav-menu__main__item__link') Menu
+                        li.nav-menu__main__item
+                            a(href='#' class='nav-menu__main__item__link') Staff
+                        li.nav-menu__main__item
+                            a(href='#' class='nav-menu__main__item__link') Events
+                        li.nav-menu__main__item
+                            a(href='#' class='nav-menu__main__item__link') Contacts

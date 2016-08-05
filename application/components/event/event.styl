@@ -1,0 +1,90 @@
+.event
+  background url("../components/img/pizzas.jpg")
+
+  background-size cover
+
+  border-bottom 15px solid black
+
+  &__sale
+    padding 0
+
+    &__baner
+      background-color black
+
+      color white
+
+      text-align center
+
+      margin  8% 0
+
+      padding 0
+
+      &__left
+        padding 0
+
+
+
+    &__link
+      background-color rgb(241, 44, 10)
+
+      color white
+
+      display block
+
+      font-size 200%
+
+      padding 10% 0
+
+      position relative
+
+      width 80%
+
+      &:hover
+        color white
+
+
+      &__price
+        font-size 220%
+
+
+      &:before
+        content ''
+
+        background-color rgb(241, 44, 10)
+
+        border-radius 100%
+
+        top    37%
+        right -12%
+
+        position absolute
+
+        height  25%
+        width   20%
+
+
+  &__offer
+    margin-top 8%
+
+    margin-left -10%
+    &__title
+      font-size 500%
+
+
+    &__text
+      font-size 250%
+
+      margin 0
+
+
+@media screen and (max-width: 1360px)
+  @import "media/event-media-1360px.styl"
+
+@media screen and (max-width: 990px)
+  @import "media/event-media-990px.styl"
+
+@media screen and (max-width: 767px)
+  @import "media/event-media-767px.styl"
+
+@media screen and (max-width: 359px)
+  @import "media/event-media-359px.styl"

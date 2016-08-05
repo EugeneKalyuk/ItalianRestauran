@@ -1,0 +1,131 @@
+.menu
+  background-image url("../components/img/menu.png")
+
+  margin-top 5%
+
+
+
+  padding-bottom 18%
+
+  &__title
+    &__text
+      color black
+
+      font-size 400%
+
+      position relative
+
+      text-align center
+
+      &:before
+        content ''
+
+        border-bottom solid 1px grey
+
+        position absolute
+
+        top   60%
+        left -10%
+
+        width 40%
+
+      &:after
+        content ''
+
+        border-bottom solid 1px grey
+
+        position absolute
+
+        top     60%
+        right  -10%
+
+        width 40%
+
+  &__info
+    margin-top 5%
+
+    &__text
+      font-size 300%
+
+      text-align center
+
+  &__book
+    background-color #f6f6f6
+
+    position relative
+
+    margin-top 5%
+
+    &__info
+      padding 5% 7% 12% 5%
+
+      &__list
+        list-style-type none
+
+        &__item
+          font-size 150%
+
+          position relative
+
+          margin-top 5%
+
+          &:after
+            border dotted 1px grey
+
+            content ''
+
+            position absolute
+
+            top 90%
+
+            width 68%
+
+          &__price
+            float right
+      &__page__left
+        background-color #e6e6e6
+
+        padding 5% 7% 12% 5%
+
+.menu__btn
+  display block
+
+  background-color black
+
+  border-radius 100%
+
+  font-size 200%
+
+  position absolute
+
+  height 6.5%
+  width  3%
+
+  &__left
+    left 23%
+
+    top 80%
+
+
+  &__right
+    right 23%
+
+    top 80%
+
+
+
+
+.glyphicon
+  color white
+
+  margin-left 18%
+  margin-top  15%
+
+@media screen and (max-width: 1360px)
+  @import "media/menu-media-1360px.styl"
+
+@media screen and (max-width: 990px)
+  @import "media/menu-media-990px.styl"
+
+@media screen and (max-width: 768px)
+  @import "media/menu-media-768px.styl"

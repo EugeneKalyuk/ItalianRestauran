@@ -1,0 +1,201 @@
+.header
+  margin 0
+  width 98%
+  &__img
+
+    &__file
+      margin-left   12%
+      margin-top  -5.5%
+
+      max-width 20%
+
+  &__title
+    display none
+
+  &__contact
+    display none
+    padding 1%
+    background-color white
+    font-size 150%
+    float right
+    width 40%
+
+    &:after
+      content none
+    &:before
+      content none
+
+
+  &__nav
+    margin 0
+
+    &__black-box
+
+      background-color white
+
+      box-shadow 0 0 2px grey
+
+      font-size 200%
+
+      width 110%
+
+      &:after
+        content none
+.fa-chevron-down
+  position absolute
+
+  top 1.5%
+  left 80%
+
+.fa-align-justify
+  color black
+
+  display none
+
+  margin-top  3%
+  margin-left 5%
+
+.fa-arrow-down
+  opacity 0
+  position absolute
+  left .6%
+  color black
+
+
+  margin-top  3%
+  margin-left 5%
+
+.selected
+  background-color #76c212
+
+  color white
+
+.selected-2
+  background-color #76c212
+
+  color white
+  & .nav-menu__sub__item__link, i
+    color white
+
+    text-decoration none
+
+
+.nav-menu
+
+  font-size 90%
+
+  background-color white
+
+
+  margin 0
+  margin-left -100%
+  width 35%
+  height 1000px
+  &__main
+
+    &__item
+      float none
+      margin-left -10%
+      padding-left 5%
+      padding-bottom 3%
+      margin-top 2%
+
+      &:hover
+        background-color #76c212
+
+        transition all .5s
+
+      &__link
+        color black
+
+        &:hover
+          color white
+
+  &__sub
+    position static
+    display none
+
+
+    background-color white
+    margin-left -5%
+    padding 4% 0
+
+    width 110%
+    margin-top 2%
+    margin-bottom -3%
+
+    &__item
+      margin 0
+      margin-top 1%
+
+
+      width 100%
+
+
+
+      &:hover
+        background-color #76c212
+
+        transition all .5s
+
+      &__link
+        padding-left 10%
+        color black
+        display block
+        &:hover
+          color white
+
+  &__last-menu
+    display none
+    background-color white
+
+    position static
+    padding 0
+    margin-left -1%
+    margin-bottom -3%
+    margin-top 2%
+    width 102%
+
+    padding-top 2%
+    &__item
+
+      padding 0
+      &__link
+
+        display block
+        color black
+
+        padding 2% 0
+
+        padding-left 15%
+
+
+
+        &:hover
+          background-color #76c212
+          color white
+
+.arrow__2
+  font-size 50px
+  top 12%
+  margin-left 60%
+  cursor pointer
+  color black
+  position static
+  display block
+
+.nav-menu__sub__item:last-child:hover .arrow__2
+  color white
+
+.nav-menu__sub__item:last-child:hover .nav-menu__sub__item__link
+  color white
+
+#contact
+  display block
+
+  padding 0 5%
+
+  float right
+  color black
+  margin-right 10%
+  margin-top -3%

@@ -1,0 +1,266 @@
+.about-us
+  margin-top 5%
+
+  &__sales
+    padding 0
+
+    &__title
+      background-color #76c212
+
+      padding 2% 5%
+
+      width 60%
+
+      &__text
+        font-size 300%
+
+        color white
+        position relative
+        text-align center
+
+        &:after
+          background-color #76c212
+          background-image url("../components/img/icon-arrow-bottom.png")
+          background-position center top 70%
+          background-repeat no-repeat
+
+
+          border-radius 100%
+
+          content ''
+
+          position absolute
+
+          top  90%
+          left 40%
+
+          height 150%
+          width  18%
+
+    &__gnacchi
+      background-color #dedede
+
+      padding 0 20% 12% 20%
+
+
+    &__alfredo
+      background-color #c6c6c6
+
+      padding 12% 10% 12% 20%
+
+      margin-left 15%
+
+    &__calamari
+      background-color #f6f6f6
+
+      padding 12% 5% 0 20%
+
+      margin-left 25%
+
+
+  &__dishes
+    &__title
+      font-size 200%
+
+      color black
+
+      &:hover
+        color black
+
+        text-decoration underline
+
+    &__info
+      font-size 150%
+
+      color black
+
+      margin-top 5%
+
+  &__right-side
+    background-image url("../components/img/2.jpg")
+    background-repeat no-repeat
+    
+    padding 2% 7% 5% 7%
+
+    &__title
+      &__text
+        color white
+
+        font-size 450%
+
+        margin-top 15%
+
+    &__info
+      &__text
+        color white
+
+        font-size 150%
+        font-family "Open Sans", Helvetica, Arial, sans-serif
+
+    &__delivery
+      border dashed 5px grey
+
+      margin-top 10%
+
+      padding 22% 12%
+      &__title
+        color white
+
+        &__text
+          font-size 450%
+
+      &__number
+        &__text
+          color #fff79c
+
+          font-size 400%
+
+          &:hover
+            color white
+
+            transition all .3s
+
+      &__link
+        &__text
+          color white
+
+          font-size 200%
+
+          text-decoration underline
+
+          &:hover
+            color #fff79c
+
+            text-decoration underline
+
+    &__info
+      &__link
+        color white
+
+        font-size 200%
+
+        text-decoration underline
+
+        &:hover
+          color #fff79c
+
+          text-decoration underline
+
+.wrap-sale
+
+  &__after
+    overflow hidden
+
+    position relative
+
+    height 80px
+    width  20%
+
+    &__text
+      color white
+
+      font-size 250%
+
+      text-align center
+
+      position absolute
+
+      margin-left 20%
+      margin-top  12%
+
+    &:before
+      background-color black
+
+      border-radius 100%
+
+      content ''
+
+      position absolute
+
+      height 160px
+      width  100%
+
+    &-gnacchi
+      margin-left 70%
+
+    &-alfredo
+      position absolute
+
+      margin-top   18%
+      margin-left  .2%
+
+      transform rotate(-90deg)
+
+    &-calamari
+      margin-left 50%
+
+      width 40%
+
+
+  &__before
+    overflow hidden
+
+    position relative
+
+    height 80px
+    width  34%
+
+    &__text
+      color grey
+
+      font-size 200%
+
+      text-decoration line-through
+
+      position absolute
+
+      margin-left 23%
+      margin-top 8%
+
+
+    &:before
+      background-color #f2f2f2
+
+      border-radius 100%
+
+      content ''
+
+      position absolute
+
+      bottom 0
+
+      height 160px
+      width 100%
+
+    &-gnacchi
+      margin-left 83%
+
+    &-alfredo
+      position absolute
+
+      transform rotate(-90deg)
+
+      top  52%
+      left 10%
+
+      width  20%
+
+    &-calamari
+      margin-left 70%
+
+      width 20%
+
+@media screen and (max-width: 1360px)
+  @import "media/aboutUs-media-1360px.styl"
+
+@media screen and (max-width: 990px)
+  @import "media/aboutUs-media-990px.styl"
+
+@media screen and (max-width: 768px)
+  @import "media/aboutUs-media-768px.styl"
+
+@media screen and (max-width: 767px)
+  @import "media/aboutUs-media-767px.styl"
+
+@media screen and (max-width: 359px)
+  @import "media/aboutUs-media-359px.styl"

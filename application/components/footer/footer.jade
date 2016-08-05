@@ -1,0 +1,46 @@
+.footer
+    .container-fluid
+        .col-sm-6
+            .footer__map
+                iframe.footer__map__link(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2972.7197210002896!2d-87.62709468815443!3d41.878249666830605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2ca31b9507c3%3A0xe8ef20cd313b0d7c!2zMjggSmFja3NvbiBCbHZkICMxMDIwLCBDaGljYWdvLCBJTCA2MDYwNCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1469814006499" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen)
+            .footer__contacts
+                .row
+                    ul.footer__contacts__list
+
+                        li.footer__contacts__list__item
+                            a(href='#' class='footer__contacts__list__item__link')
+                                i(class="fa fa-facebook" aria-hidden="true")
+                        li.footer__contacts__list__item
+                            a(href='#' class='footer__contacts__list__item__link')
+                                i(class="fa fa-facebook" aria-hidden="true")
+                        li.footer__contacts__list__item
+                            a(href='#' class='footer__contacts__list__item__link')
+                                i(class="fa fa-facebook" aria-hidden="true")
+                        li.footer__contacts__list__item
+                            a(href='#' class='footer__contacts__list__item__link')
+                                i(class="fa fa-facebook" aria-hidden="true")
+
+                .row
+                    .footer__contacts__address
+                        p.footer__contacts__address__text 28 Jackson Blvd Ste 1020<br>Chicago<br>IL 60604-2340
+
+        .col-sm-6
+            .footer__form
+                .footer__title
+                    h1.footer__title__text.text-uppercase contact form
+                .footer__form__box
+                    form
+                        .form-group.footer__form__box__name
+                            input.form-control.footer__form__box__name__aray(type='text' placeholder='Your name')
+                            .error__text.error__text__name The text field is required.
+                        .form-group.footer__form__box__email
+                            input.form-control.footer__form__box__email__aray(type='email' placeholder='Your email')
+                            .error__text.error__text__email The email is not a valid.
+                        .form-group.footer__form__box__text
+                            textarea.form-control.footer__form__box__text__aray(rows='3' placeholder='Message')
+                            .error__text.error__text__arey The text area is required.
+                        button.footer__form__box__btn(type='submit') send
+
+            .footer__privacy
+                h3.footer__privacy__text © 2016 |
+                    a(href='#' class='footer__privacy__link')  Privacy policy

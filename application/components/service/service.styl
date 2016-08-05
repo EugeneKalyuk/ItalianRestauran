@@ -1,0 +1,109 @@
+.preservice
+
+  &__circle
+    background-color #76c212
+
+    border-radius 100%
+    border solid white 15px
+
+    position absolute
+
+    text-align center
+
+    top -30%
+    left 20%
+
+    height 355px
+    width   20%
+
+    &__img
+      margin 12% auto
+
+    &__title
+      color white
+
+      font-size 400%
+
+.service
+  position relative
+
+  &__cook
+    margin-top 5%
+
+  &__offer
+    font-size 200%
+
+    text-align center
+
+    &__title
+
+      &__text
+        font-size 140%
+
+
+    &__info
+      color rgb(241, 44, 10)
+
+      font-size 80%
+      font-family "Open Sans", Helvetica, Arial, sans-serif
+
+      margin-top 8%
+
+    &__dishes
+      position relative
+
+      &__img
+        border-radius 100%
+
+        margin 35% auto 10% auto
+
+      &__more
+        display none
+
+        background-color black
+
+        border-radius 100%
+
+        position absolute
+
+        top  40%
+        left 32%
+
+        height 31%
+        width  35%
+
+        &__text
+          color white
+
+          margin-top 28%
+
+      &__title
+        color black
+        
+        &:hover
+          color #76c212
+
+          transition all .4s
+
+
+  &__spaghetti
+    overflow hidden
+    &__img
+      margin-top 128%
+
+      transform scale(3.5)
+
+@media screen and (max-width: 1360px)
+  @import "media/service-media-1360px.styl"
+
+@media screen and (max-width: 990px)
+  @import "media/service-media-990px.styl"
+
+@media screen and (max-width: 768px)
+  @import "media/service-media-768px.styl"
+
+@media screen and (max-width: 767px)
+  @import "media/service-media-767px.styl"
+
+@media screen and (max-width: 359px)
+  @import "media/service-media-359px.styl"
