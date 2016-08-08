@@ -8,7 +8,7 @@ Quick start
 
     cd 'yourDirectory'/gulp
 
-For a work Gulp
+For work Gulp
 ---------------
 
      npm install
